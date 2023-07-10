@@ -1,0 +1,172 @@
+.home1 , .home2 , .home3{
+    height: 100vh;
+    width: 100%;
+}
+body{
+    background-color: blueviolet;
+}
+.home1{
+    background: url(../../public/images/waves.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home1 .home-inner{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-inner h1{
+    font: bold 4rem Roboto;
+    color: aliceblue;
+    background-color: darkgray;
+}
+
+.home-inner p{
+    color: antiquewhite;
+    letter-spacing: 1.5px;
+    word-spacing: .5rem;
+    margin-top: 5px;
+}
+
+.home-inner p:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.home-inner h1:hover{
+    filter: invert();
+}
+
+.home2{
+    background-color: aliceblue;
+    width: 70%;
+    border-radius: 0px 150px 150px 0px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home2 h1{
+    letter-spacing: 2px;
+    border-bottom: 5px ridge black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.home2 p{
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 30px;
+    text-align: center;
+}
+.btn{
+    background-color: beige;
+    padding: .5rem 1rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;    
+}
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;  
+}
+
+.home3-inner{
+    background-color: aliceblue;
+    width: 70%;
+    border-radius:  150px 0px 0px 150px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 3rem;
+}
+
+.home3{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+
+}
+
+.brand{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all .5s;
+    margin-top: 10px;
+    animation: poptop infinite alternate-reverse linear 1s;
+
+}
+
+.icons{
+    font-size: 50px;
+}
+.brand p {
+    font-weight: 900;
+    margin-top: 7px;
+}
+
+.brand:hover{
+    filter: invert()
+} 
+
+@keyframes poptop{
+    to{
+        transform: translate(2rem);
+    }
+}
+
+footer{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+    flex-wrap: wrap;
+}
+
+.footer-main1{
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.footer-main2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-main2 h4{
+    margin-bottom: 5px;
+}
+
+.footer-main2 a{
+    font: bold .8rem cursive;
+    color: black;
+}
+.footer-main2 a:hover{
+    text-decoration: underline;
+}

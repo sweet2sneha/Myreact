@@ -1,0 +1,19 @@
+The <Link> and <NavLink> are the components provided by react-router-dom to navigate around the react application. Generally, we use anchor tags for this purpose while navigating. Then what’s the difference? Let’s find out.
+npm install react-responsive-carousel
+npm install react-icons
+Anchor tags will reload the page and re-render all the components. While <Link> and <NavLink> will only re-render updated components matched with the URL path of the Route without reloading. It helps the Single-Page Applications to work faster while routing.
+
+<Link> Component Props:
+
+to: String or object which specifies the pathname.
+replace: Replaces the pathname in the history stack with new.
+innerRef: Passes ref to the element rendered by the component.
+<NavLink> Component Props:
+
+
+to, replace, innerRef same as the Link Component.
+className: Specifies the CSS class name you want to apply to the element when active.
+isActive: Returns boolean value whether the link is active or not.
+style: To apply inline CSS.
+end: Match the pathname precisely with the URL.
+A <NavLink> is a special kind of <Link> that knows whether or not it is “active”. Now, let’s understand  this with the help of an example. 

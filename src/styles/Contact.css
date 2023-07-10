@@ -1,0 +1,56 @@
+.contact-inner{
+    background-color: white;
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px 10px 150px 10px;
+
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact h1{
+    color: aliceblue;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.form-group{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-group label{
+    font: bold 1.2rem cursive;
+    width: 40%;
+    margin-bottom: 4px;
+}
+.form-group input{
+    padding: 10px 20px;
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 3px purple;
+    border-radius: 5px;
+}
+.form-submit button{
+    background-color: aqua;
+    border: none;
+    padding: 10px 2rem;
+    margin: 2rem auto 0rem auto;
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+}
